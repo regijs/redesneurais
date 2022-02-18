@@ -6,8 +6,8 @@ Files written in MATLAB to learn Neural Networks.
 
 Files:
 
-* ELM.m - [outELM] = ELM (neuronios,inTreino,outTreino,inTeste,outTeste,c) - my implementation of the Extrem Learning Machine
-* showimag.m - showimag(X,Yp) - mostra as imagens quadradas X(k,:) e l+1, onde l é tal que Yp(k,l) é máximo.
+* ELM.m - [outELM] = ELM (neuronios,inTreino,outTreino,inTeste,outTeste,c) - my implementation of the Extreme Learning Machine
+* showimag.m - showimag(X,Yp) - mostra as imagens quadradas X(k,:) e l+1, onde l é tal que Yp(k,l) é máximo em Yp(k,:).
 * mnist.mat - MATLAB file with P 1000x784 matrix (1000 images for training), T 1000x10 matrix (1000 classification)
 * Ptest 200x784 matrix (200 images for testing), Ttest 200x10 (200 classification)
 * Example:
